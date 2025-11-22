@@ -60,7 +60,7 @@ const BeneficiaryDashboard = () => {
                     </Link>
 
                     {/* Donors Interested List */}
-                    <Link to="/beneficiary/donors-interested" className="block">
+                    {/* <Link to="/beneficiary/donors-interested" className="block">
                         <div className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
                             <h2 className="text-xl font-semibold text-gray-800 mb-2">
                                 Donors Interested
@@ -69,10 +69,10 @@ const BeneficiaryDashboard = () => {
                                 View donors who raised hand for donating blood or organ.
                             </p>
                         </div>
-                    </Link>
+                    </Link> */}
 
                     {/* Approve Volunteers */}
-                    <Link to="/beneficiary/volunteers" className="block">
+                    {/* <Link to="/beneficiary/volunteers" className="block">
                         <div className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
                             <h2 className="text-xl font-semibold text-gray-800 mb-2">
                                 Approve Volunteers
@@ -81,10 +81,10 @@ const BeneficiaryDashboard = () => {
                                 Approve donors who applied to volunteer in hospital campaigns.
                             </p>
                         </div>
-                    </Link>
+                    </Link> */}
 
                     {/* Verify Certificates */}
-                    <Link to="/beneficiary/verify-certificates" className="block">
+                    {/* <Link to="/beneficiary/verify-certificates" className="block">
                         <div className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
                             <h2 className="text-xl font-semibold text-gray-800 mb-2">
                                 Verify Donor Certificates
@@ -93,10 +93,10 @@ const BeneficiaryDashboard = () => {
                                 Review and verify degree/license uploaded by donors.
                             </p>
                         </div>
-                    </Link>
+                    </Link> */}
 
                     {/* Approve Gratitude Certificates */}
-                    <Link to="/beneficiary/gratitude" className="block">
+                    {/* <Link to="/beneficiary/gratitude" className="block">
                         <div className="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
                             <h2 className="text-xl font-semibold text-gray-800 mb-2">
                                 Approve Gratitude Certificates
@@ -105,7 +105,7 @@ const BeneficiaryDashboard = () => {
                                 Approve certificates to thank donors for their contribution.
                             </p>
                         </div>
-                    </Link>
+                    </Link> */}
 
                     {/* View All Patients & Donors */}
                     <Link to="/beneficiary/start-campaign" className="block">

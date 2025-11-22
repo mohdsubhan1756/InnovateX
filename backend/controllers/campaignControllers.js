@@ -55,7 +55,6 @@ export const getCampaignById = async (req, res) => {
 
 
 // Donor donates goods
-// POST /api/campaigns/donate
 
 export const donateToCampaign = async (req, res) => {
     try {
@@ -72,7 +71,6 @@ export const donateToCampaign = async (req, res) => {
 };
 
 // Donor's donations
-// GET /api/campaigns/my-donations/:donorId
 export const getMyCampaignDonations = async (req, res) => {
     try {
         const donations = await CampaignDonation.find({ donor: req.params.donorId })

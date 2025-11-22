@@ -18,7 +18,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Static folder for uploaded files (degrees, certificates)
 app.use("/uploads", express.static("uploads"));
 
 // Routes
@@ -28,18 +27,15 @@ app.use("/api/donate", donationRoutes);
 app.use("/api/record", recordsRoutes);
 app.use("/api/campaign", campaignRoutes)
 
-// Default route
 app.get("/", (req, res) => {
     res.send("Blood & Organ Donation API Running...");
 });
 
-// MongoDB Connection
 mongoose
     .connect(process.env.MONGO_URI)
     .then(() => console.log("MongoDB Connected"))
     .catch((err) => console.error("MongoDB connection error:", err));
 
-// Start Server
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {

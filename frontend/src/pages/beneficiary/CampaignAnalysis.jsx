@@ -66,7 +66,7 @@ const CampaignAnalysis = () => {
     useEffect(() => {
         const fetchCampaign = async () => {
             try {
-                const res = await fetch(`http://localhost:5000/api/campaigns/${id}`);
+                const res = await fetch(`http://localhost:5000/api/campaign/${id}`);
                 const data = await res.json();
                 if (res.ok) setCampaign(data.campaign);
             } catch (err) {

@@ -11,7 +11,7 @@ export default function DonorDashboard() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                     {/* Volunteer Apply */}
-                    <div className="bg-white shadow-md p-5 rounded-lg border">
+                    {/* <div className="bg-white shadow-md p-5 rounded-lg border">
                         <h2 className="text-xl font-semibold mb-2">Apply as Volunteer</h2>
                         <p className="text-gray-600 mb-4">
                             Upload your degree/license and apply for volunteer work in hospital campaigns.
@@ -22,7 +22,7 @@ export default function DonorDashboard() {
                         >
                             Apply Now
                         </Link>
-                    </div>
+                    </div> */}
 
                     {/* Upload Degree or License */}
                     <div className="bg-white shadow-md p-5 rounded-lg border">
